@@ -17,6 +17,8 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        working-directory: ./Dynamic-Price-Optimiser
 
       - name: Run Tests
         run: npm test
+        working-directory: ./Dynamic-Price-Optimiser
